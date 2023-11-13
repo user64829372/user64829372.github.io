@@ -31,7 +31,7 @@ if($_POST) {
     // Check if all fields are filled
     if($name && $email && $subject && $message) {
         // Set recipient email address
-        $recipient = "info@tcg.com"; //replace with your email address
+        $recipient = "TCG.co@protonmail.com"; //replace with your email address
 
         // Set headers for the email
         $headers  = 'MIME-Version: 1.0' . "\r\n"
