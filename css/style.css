@@ -136,12 +136,12 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
-  padding: 10px 0;
+  height: 70px;
+  padding: 20px 0;
 }
 
 #header .logo h1 {
-  font-size: 26px;
+  font-size: 36px;
   margin: 0;
   padding: 0;
   line-height: 1;
