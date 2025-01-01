@@ -166,6 +166,33 @@ h6 {
   margin-top: 60px;
 }
 
+/*AI addition for h1 expand on mobile*/
+
+/* Base styles for the header */
+header {
+  /* ... other styles for the header ... */
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  header {
+    /* Adjust header styles for mobile */
+    /* For example, to make the header expand to fit the title: */
+    width: 100%; /* Make the header full width */
+    max-width: none; /* Remove any maximum width constraint */
+  }
+
+  /* Adjust title styles for mobile */
+  header h1, header h2 {
+    /* Adjust font size, line height, or other properties as needed */
+    font-size: 20px; /* Example: Reduce font size */
+    line-height: 1.2;
+  }
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
